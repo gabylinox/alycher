@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt - br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widht=device-width, initial-scale=1.0">
+    <title>Our new beginning</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="logoAly.png" alt="" width="50px">
+        </div>
+        <nav>
+            <a href="#"> Inicio</a>
+            <a href="#"> Series</a>
+            <a href="#"> Filmes</a>
+            <a href="#"> Minha lista</a>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div class="conteudo">
+            <p class="titulo"> Beginning of Alycher</p>
+            <p class="detalhes">
+                <span> 20 de Abril - 6 temporadas </span>
+                <span class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </span>
+                <p class="descricao">
+                    Você é minha direção!
+                </p>
+                <div class="botoes">
+                    <button onclick="window.location.href='sobre.html'">
+                        <i class="fa-solid fa-heart"></i> Sobre nós</button>
+                    <button onclick="window.location.href='testes/indexf.html'"><i class="fa-solid fa-envelope"></i></i> For you </button>
+                </div>
+            </p>
+
+        </div>
+
+    </section>
+
+    <section class="momentos">
+        <h2>Nossos melhores momentos</h2>
+
+        <!-- Slider main container -->
+        <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="img/foto1.png"> </div>
+    <div class="swiper-slide"><img src="img/foto2.png"> </div>
+    <div class="swiper-slide"><img src="img/foto3.png"> </div>
+    <div class="swiper-slide"><img src="img/foto4.png"> </div>
+    <div class="swiper-slide"><img src="img/foto05.png"> </div>
+    <div class="swiper-slide"><img src="img/foto06.png"> </div>
+    <div class="swiper-slide"><img src="img/foto07.png"> </div>
+    <div class="swiper-slide"><img src="img/foto08.png"> </div>
+    <div class="swiper-slide"><img src="img/foto09.png"> </div>
+    <div class="swiper-slide"><img src="img/foto10.png"> </div>
+    <div class="swiper-slide"><img src="img/foto11.png"> </div>
+    <div class="swiper-slide"><img src="img/foto12.png"> </div>
+    <div class="swiper-slide"><img src="img/foto13.png"> </div>
+    <div class="swiper-slide"><img src="img/foto14.png"> </div>
+    <div class="swiper-slide"><img src="img/foto15.png"> </div>
+    <div class="swiper-slide"><img src="img/foto16.png"> </div>
+    <div class="swiper-slide"><img src="img/foto17.png"> </div>
+    <div class="swiper-slide"><img src="img/foto18.png"> </div>
+     <div class="swiper-slide"><img src="img/foto1.png"> </div>
+    <div class="swiper-slide"><img src="img/foto2.png"> </div>
+    <div class="swiper-slide"><img src="img/foto3.png"> </div>
+    <div class="swiper-slide"><img src="img/foto4.png"> </div>
+    <div class="swiper-slide"><img src="img/foto05.png"> </div>
+    <div class="swiper-slide"><img src="img/foto06.png"> </div>
+    <div class="swiper-slide"><img src="img/foto07.png"> </div>
+    <div class="swiper-slide"><img src="img/foto08.png"> </div>
+    <div class="swiper-slide"><img src="img/foto09.png"> </div>
+    <div class="swiper-slide"><img src="img/foto10.png"> </div>
+    <div class="swiper-slide"><img src="img/foto11.png"> </div>
+    <div class="swiper-slide"><img src="img/foto12.png"> </div>
+    <div class="swiper-slide"><img src="img/foto13.png"> </div>
+    <div class="swiper-slide"><img src="img/foto14.png"> </div>
+    <div class="swiper-slide"><img src="img/foto15.png"> </div>
+    <div class="swiper-slide"><img src="img/foto16.png"> </div>
+    <div class="swiper-slide"><img src="img/foto17.png"> </div>
+    <div class="swiper-slide"><img src="img/foto18.png"> </div>
+    </div>
+</div>
+
+
+
+    </section>
+
+    <footer>
+        by your beniboo S2
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+     loop: true,
+     autoplay:{
+        delay: 2500,
+        disableOnInteraction: false,
+     },
+     slidesPerView: 2,
+     spaceBetween: 10,
+     loop: true,
+     breakpoints: {
+        600: {
+            loop:true,
+            slidesPerView:3,
+            spaceBetween:15,
+        },
+        900: {
+            loop: true,
+            slidesPerView:4,
+            spaceBetween:40,
+        }
+     }
+
+    });
+    </script>
+
+</body>
+</html>
