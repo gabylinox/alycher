@@ -1,0 +1,8 @@
+{
+  "name": "alycher-flowers",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "mkdir -p public && cp index.html main.js public/ && sass style.scss public/style.css",
+    "install": "npm install -g sass"
+  }
+}
